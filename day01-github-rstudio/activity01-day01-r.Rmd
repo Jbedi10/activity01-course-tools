@@ -33,6 +33,28 @@ I also encourage you to use comments (`#`) to help you identify each item (I pro
 
 ```{r simple-calculations}
 # Item 1
+2+5
+
+#Item 2
+int_vect <- 1:9
+int_vect
+
+#Item 3 
+
+char_vect <- LETTERS[1:17]
+char_vect
+  
+# Item 4: Determine how many items in char_vect occur after the letter "D"
+char_vect <- LETTERS[1:17]
+items_after_D <- char_vect[char_vect > "D"]
+count_after_D <- length(items_after_D)
+cat("Number of items in char_vect after the letter 'D':", count_after_D, "\n")
+
+# Item 5: Descriptive comments
+# For Task 4, we use logical indexing to extract items in char_vect that come after the letter "D".
+# The length of the resulting vector gives us the count.
+
+# Note: Ensure that you've run the code for creating char_vect before running this code.
 
 ```
 
